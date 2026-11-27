@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#075c24">
+  <title>Unduh Q-mas</title>
+  <link rel="icon" href="app/icons/icon-192.png">
+  <style>
+    :root { --aksen:#075c24; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:20px/1.45 system-ui,'Segoe UI',Roboto,sans-serif; color:#000; background:#fff; }
+    main { max-width:640px; margin:0 auto; padding:24px 16px 64px; display:flex; flex-direction:column; gap:16px; }
+    h1 { font-size:1.8rem; margin:0; }
+    h2 { font-size:1.2rem; margin:24px 0 8px; }
+    img.logo { width:96px; height:96px; border-radius:20px; }
+    .tombol { display:block; min-height:84px; padding:16px; border:3px solid var(--aksen); border-radius:16px; background:var(--aksen); color:#fff; font-size:1.4rem; font-weight:800; text-align:center; text-decoration:none; }
+    .tombol.abu { background:#e6e6e6; color:#000; border-color:#000; }
+    .tombol:focus-visible { outline:4px solid #0044cc; outline-offset:3px; }
+    ol { padding-left:1.3rem; margin:0; } li { margin-bottom:10px; }
+    .langkah { border:3px solid #000; border-radius:14px; padding:14px 16px; }
+    .langkah svg { width:44px; height:44px; vertical-align:middle; margin-right:8px; }
+    .peringatan { border:3px solid #8a1010; background:#fbe4e4; border-radius:14px; padding:12px 16px; font-weight:700; }
+    small { color:#595959; }
+  </style>
+</head>
+<body>
+<main>
+  <img class="logo" src="app/icons/icon-192.png" alt="Q-mas">
+  <h1>Q-mas Kenanga</h1>
+  <p>Stok emas tertib dari hari ke hari. Data tersimpan di perangkat Anda sendiri, tanpa internet setelah dipasang.</p>
+
+  <a class="tombol" href="app/">Pasang di Chrome</a>
+  <a class="tombol abu" href="https://github.com/mosugi98/qmas-rilis/releases/latest/download/qmas.apk">Unduh APK (Android)</a>
+
+  <div class="peringatan">Hanya untuk HP Android dan PC Windows. iPhone tidak didukung resmi.</div>
+
+  <h2>Cara pasang di Chrome</h2>
+  <div class="langkah">
+    <ol>
+      <li><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="8" width="40" height="32" rx="6" fill="none" stroke="#000" stroke-width="3"/><path d="M4 18h40" stroke="#000" stroke-width="3"/></svg>Ketuk <b>Pasang di Chrome</b> di atas.</li>
+      <li><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18" fill="none" stroke="#000" stroke-width="3"/><path d="M24 14v14m-7-7l7 7 7-7" stroke="#000" stroke-width="3" fill="none"/></svg>Di Chrome, ketuk <b>Pasang</b> (ikon di bilah alamat) atau menu titik tiga di pojok kanan atas, lalu <b>Tambahkan ke layar utama</b>.</li>
+      <li><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="4" width="28" height="40" rx="6" fill="none" stroke="#000" stroke-width="3"/><circle cx="24" cy="37" r="2"/></svg>Buka Q-mas dari layar utama. Buat PIN 4 angka. Selesai.</li>
+    </ol>
+  </div>
+
+  <h2>Cara pasang APK (Android)</h2>
+  <div class="langkah">
+    <ol>
+      <li>Ketuk <b>Unduh APK</b>, tunggu sampai selesai.</li>
+      <li>Buka berkas yang diunduh. Bila diminta, izinkan <b>sumber tidak dikenal</b> (sekali saja).</li>
+      <li>Ketuk <b>Pasang</b>, lalu buka Q-mas.</li>
+    </ol>
+  </div>
+  <p><small>Untuk HP, APK direkomendasikan karena cadangan otomatis tetap berjalan saat aplikasi tertutup.</small></p>
+
+  <h2>Penting: cadangkan data</h2>
+  <p>Data hanya ada di perangkat ini. Tekan <b>Cadangkan</b> di beranda secara rutin dan simpan berkasnya di tempat lain (Google Drive, WhatsApp, flashdisk).</p>
+</main>
+</body>
+</html>
